@@ -21,4 +21,21 @@ weight = 12.22;
 my_name = "Victoire"
 my_Second_name  = "Ansima";
 
+# STRINGS 
+
+
+name = "John"
+message = """
+fasdfas
+afjodifa
+fads;kfadsf
+asdfklas;dfa
+sdf
+efio;kafasdpf
+"""
+
+
+print(len(message)) #length
+print(name[0]) #element at a given index
+print(name[0 : 2]) # slicing
 
