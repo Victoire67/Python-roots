@@ -1,27 +1,27 @@
-# Variables 
+# Variables
 
-# I python there are 3 main primitive types : 
-# -   Booleans : ALWAYS STARTS WITH UPPER CASE 
-# -   Numbers 
-# -   Strings 
+# I python there are 3 main primitive types :
+# -   Booleans : ALWAYS STARTS WITH UPPER CASE
+# -   Numbers
+# -   Strings
 
 
-# Boolean 
+# Boolean
 
-is_muslim = True;
-is_elligible_to_vote  = False ;
+is_muslim = True
+is_elligible_to_vote = False
 
-# Numbers 
+# Numbers
 
-age = 12 ;
-weight = 12.22;
+age = 12
+weight = 12.22
 
-# String 
+# String
 
 my_name = "Victoire"
-my_Second_name  = "Ansima";
+my_Second_name = "Ansima"
 
-# STRINGS 
+# STRINGS
 
 
 name = "John"
@@ -35,7 +35,22 @@ efio;kafasdpf
 """
 
 
-print(len(message)) #length
-print(name[0]) #element at a given index
-print(name[0 : 2]) # slicing
+# print(len(message))  # length
+# print(name[0])  # element at a given index
+# print(name[0: 2])  # slicing
+
+
+# Indentation 
+# In python indentation is not only for code readability but also for 
+
+if 12 > 23 :
+    print("This will never happen")
+
+def what_is_your_name(name):
+    print(f"my name is {name}");
+
+
+
+
+
 
