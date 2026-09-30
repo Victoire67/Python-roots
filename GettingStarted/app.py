@@ -65,3 +65,15 @@ print(str(23))
 fruits = ['apple', 'banana' , 'cherry']
 x, y , z = fruits ;
 print(x);
+
+
+#global variables and scoping 
+#When we are we create a variable outside of a function or block , that varaible is globale but when we are trying to 
+# create one which is variable within a function we need to use the global key word 
+
+def has_a_global():
+    global var;
+    var = 'something sweet'
+has_a_global();
+print(var)
+
