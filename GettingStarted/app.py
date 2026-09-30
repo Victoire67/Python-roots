@@ -60,3 +60,8 @@ print(1234, " is a good number , but I prever ", 7)
 # Casting : changing from one data type to another one 
 print(str(23))
 
+#unpacking : creating variables from lists or tuples
+
+fruits = ['apple', 'banana' , 'cherry']
+x, y , z = fruits ;
+print(x);
