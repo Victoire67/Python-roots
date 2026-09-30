@@ -106,3 +106,29 @@ print(type(z));
 
 print(complex(x))
 print(random.randint(1, 5))
+
+#STRINGS :
+
+field = "computer science"
+
+# checking the length of a string
+
+print(len(field));
+
+# Strings are array so we can iterate through them using the for loop
+
+for letter in field : 
+    print(letter)
+
+
+# Checking for a given character in a string
+
+if "computer" in field :
+    print("YES COMPUTER")
+
+if "mavi" not in field : 
+    print("NO MAVI")
+
+# accessing a character at a given position 
+
+print(field[2])
