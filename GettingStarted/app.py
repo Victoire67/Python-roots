@@ -49,6 +49,13 @@ if 12 > 23 :
 def what_is_your_name(name):
     print(f"my name is {name}");
 
+#print 
+#By default print is a function that takes 2 parameters but the last one is ignored and defaults to new line 
+
+print("I have a new line at the end!")
+print("I have space after this " , end = " -=- ")
+print("This is after the space")
+
 
 
 
