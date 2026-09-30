@@ -1,134 +1,155 @@
-import random ;
-# Variables
+# import random
+# # Variables
 
-# I python there are 3 main primitive types :
-# -   Booleans : ALWAYS STARTS WITH UPPER CASE
-# -   Numbers
-# -   Strings
-
-
-# Boolean
-
-is_muslim = True
-is_elligible_to_vote = False
-
-# Numbers
-
-age = 12
-weight = 12.22
-
-# String
-
-my_name = "Victoire"
-my_Second_name = "Ansima"
-
-# STRINGS
+# # I python there are 3 main primitive types :
+# # -   Booleans : ALWAYS STARTS WITH UPPER CASE
+# # -   Numbers
+# # -   Strings
 
 
-name = "John"
-message = """
-fasdfas
-afjodifa
-fads;kfadsf
-asdfklas;dfa
-sdf
-efio;kafasdpf
-"""
+# # Boolean
+
+# is_muslim = True
+# is_elligible_to_vote = False
+
+# # Numbers
+
+# age = 12
+# weight = 12.22
+
+# # String
+
+# my_name = "Victoire"
+# my_Second_name = "Ansima"
+
+# # STRINGS
 
 
-# print(len(message))  # length
-# print(name[0])  # element at a given index
-# print(name[0: 2])  # slicing
+# name = "John"
+# message = """
+# fasdfas
+# afjodifa
+# fads;kfadsf
+# asdfklas;dfa
+# sdf
+# efio;kafasdpf
+# """
 
 
-# Indentation 
-# In python indentation is not only for code readability but also for 
-
-if 12 > 23 :
-    print("This will never happen")
-
-def what_is_your_name(name):
-    print(f"my name is {name}");
-
-#print 
-#By default print is a function that takes 2 parameters but the last one is ignored and defaults to new line 
-
-print("I have a new line at the end!")
-print("I have space after this " , end = " -=- ")
-print("This is after the space")
-print(1234, " is a good number , but I prever ", 7)
-
-# Casting : changing from one data type to another one 
-print(str(23))
-
-#unpacking : creating variables from lists or tuples
-
-fruits = ['apple', 'banana' , 'cherry']
+# # print(len(message))  # length
+# # print(name[0])  # element at a given index
+# # print(name[0: 2])  # slicing
 
 
+# # Indentation
+# # In python indentation is not only for code readability but also for
 
-#global variables and scoping 
-#When we are we create a variable outside of a function or block , that varaible is globale but when we are trying to 
-# create one which is variable within a function we need to use the global key word 
-
-def has_a_global():
-    global var;
-    var = 'something sweet'
-has_a_global();
-print(var)
+# if 12 > 23:
+#     print("This will never happen")
 
 
-# DataTypes
-# In pytnon these are the existing data types : 
-# - Text types (str)
-# - Numeric Types (int , float , complex)
-# - Sequence types (list , tuple , range)
-# - Mapping type (dict)
-# - Set tupes (set  , frozenset)
-# - Booleans Type (bool)
-# - Binary Types (bytes, butearray , memoryview)
-# - None Type (NoneType)
+# def what_is_your_name(name):
+#     print(f"my name is {name}")
+
+# # print
+# # By default print is a function that takes 2 parameters but the last one is ignored and defaults to new line
 
 
-# U get the the data type of any object by using the type function type(value)
+# print("I have a new line at the end!")
+# print("I have space after this ", end=" -=- ")
+# print("This is after the space")
+# print(1234, " is a good number , but I prever ", 7)
 
-#NUMBERS :
-# There are three numeric types in python where : int , float and complex 
-x = 1;
-y = 2.8 
-z = "1j"
+# # Casting : changing from one data type to another one
+# print(str(23))
 
-print(type(x));
-print(type(y));
-print(type(z));
+# # unpacking : creating variables from lists or tuples
 
-# you can convert from one number type to another one 
-
-print(complex(x))
-print(random.randint(1, 5))
-
-#STRINGS :
-
-field = "computer science"
-
-# checking the length of a string
-
-print(len(field));
-
-# Strings are array so we can iterate through them using the for loop
-
-for letter in field : 
-    print(letter)
+# fruits = ['apple', 'banana', 'cherry']
 
 
-# Checking for a given character in a string
+# # global variables and scoping
+# # When we are we create a variable outside of a function or block , that varaible is globale but when we are trying to
+# # create one which is variable within a function we need to use the global key word
 
-if "computer" in field :
-    print("YES COMPUTER")
+# def has_a_global():
+#     global var
+#     var = 'something sweet'
 
-if "mavi" not in field : 
-    print("NO MAVI")
 
-# accessing a character at a given position 
+# has_a_global()
+# print(var)
 
-print(field[2])
+
+# # DataTypes
+# # In pytnon these are the existing data types :
+# # - Text types (str)
+# # - Numeric Types (int , float , complex)
+# # - Sequence types (list , tuple , range)
+# # - Mapping type (dict)
+# # - Set tupes (set  , frozenset)
+# # - Booleans Type (bool)
+# # - Binary Types (bytes, butearray , memoryview)
+# # - None Type (NoneType)
+
+
+# # U get the the data type of any object by using the type function type(value)
+
+# # NUMBERS :
+# # There are three numeric types in python where : int , float and complex
+# x = 1
+# y = 2.8
+# z = "1j"
+
+# print(type(x))
+# print(type(y))
+# print(type(z))
+
+# # you can convert from one number type to another one
+
+# print(complex(x))
+# print(random.randint(1, 5))
+
+# # STRINGS :
+
+# field = "computer science"
+
+# # checking the length of a string
+
+# print(len(field))
+
+# # Strings are array so we can iterate through them using the for loop
+
+# for letter in field:
+#     print(letter)
+
+
+# # Checking for a given character in a string
+
+# if "computer" in field:
+#     print("YES COMPUTER")
+
+# if "mavi" not in field:
+#     print("NO MAVI")
+
+# # accessing a character at a given position
+
+# print(field[2])
+
+
+# # Slicing a string
+# # U do this by specifying a range using a semicolon between start and end index
+
+# welcome = "Welcome to amaliTech"
+# print(welcome[0:3])
+# print(welcome[-2: -1])
+
+#stings have a lot of methods to look into the documentation 
+
+# string formating 
+
+# F-string was introduced in python 3.6 and is now the default way of formating strings in python 
+price = 59 
+text = f"The price is {price:.2f} dollars"
+print(text)
+
