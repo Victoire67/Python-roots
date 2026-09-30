@@ -55,9 +55,8 @@ def what_is_your_name(name):
 print("I have a new line at the end!")
 print("I have space after this " , end = " -=- ")
 print("This is after the space")
+print(1234, " is a good number , but I prever ", 7)
 
-
-
-
-
+# Casting : changing from one data type to another one 
+print(str(23))
 
