@@ -1,3 +1,4 @@
+import random ;
 # Variables
 
 # I python there are 3 main primitive types :
@@ -63,8 +64,7 @@ print(str(23))
 #unpacking : creating variables from lists or tuples
 
 fruits = ['apple', 'banana' , 'cherry']
-x, y , z = fruits ;
-print(x);
+
 
 
 #global variables and scoping 
@@ -77,3 +77,32 @@ def has_a_global():
 has_a_global();
 print(var)
 
+
+# DataTypes
+# In pytnon these are the existing data types : 
+# - Text types (str)
+# - Numeric Types (int , float , complex)
+# - Sequence types (list , tuple , range)
+# - Mapping type (dict)
+# - Set tupes (set  , frozenset)
+# - Booleans Type (bool)
+# - Binary Types (bytes, butearray , memoryview)
+# - None Type (NoneType)
+
+
+# U get the the data type of any object by using the type function type(value)
+
+#NUMBERS :
+# There are three numeric types in python where : int , float and complex 
+x = 1;
+y = 2.8 
+z = "1j"
+
+print(type(x));
+print(type(y));
+print(type(z));
+
+# you can convert from one number type to another one 
+
+print(complex(x))
+print(random.randint(1, 5))
