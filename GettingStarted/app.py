@@ -188,3 +188,11 @@ if (n:=count_odds(data)) > 1 :
 
 t2 = time.time();
 print(f'Took {t2-t1} seconds.')
+
+
+num = 6
+
+x = 'WEEKEND' if num > 5 else 'Workday'
+
+print(x)
+
