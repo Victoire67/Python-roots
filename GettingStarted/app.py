@@ -1,6 +1,6 @@
 # import random
 # # Variables
-
+import time
 # # I python there are 3 main primitive types :
 # # -   Booleans : ALWAYS STARTS WITH UPPER CASE
 # # -   Numbers
@@ -153,3 +153,38 @@ price = 59
 text = f"The price is {price:.2f} dollars"
 print(text)
 
+#BOOLEAN
+# Most values are t in ruthy python exept , zero and empty containers 
+
+# Operators in python
+# Python devides operators into the following types : 
+# Arithmetic , Assignment , Comparison , Logical , Identity , Membership , Bitwise
+
+# Assignment operator : 
+x = 21
+
+
+print(x // 2);
+print(2 & 2)
+
+
+print(~12)
+
+
+# walrus operator 
+
+
+def count_odds(data):
+    time.sleep(1)
+    odds = [o for o in data if o%2 == 1]
+    return(len(odds))
+
+data = [45, 65 ,22 , 12 , 54 , 1, 0 , 17]
+
+t1 = time.time() #present time
+
+if (n:=count_odds(data)) > 1 : 
+    print(f'{n} odds')
+
+t2 = time.time();
+print(f'Took {t2-t1} seconds.')
