@@ -231,4 +231,24 @@ print(family_x)
 family_y.clear()
 del(family_y)
 
-print(family_y)
+# print(family_y)
+
+
+# Looping through lists in python 
+
+for x in family_x : 
+    x -= x
+    print(x)
+
+
+for i in range(len(family_x)):
+    print(i)
+
+i = 0
+while i < len(family_x):
+    print(family_x[i])
+    i = i + 1
+
+# list comprehension 
+
+[print(f"listComprehension chapter {x}") for x in family_x]
