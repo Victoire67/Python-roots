@@ -252,3 +252,11 @@ while i < len(family_x):
 # list comprehension 
 
 [print(f"listComprehension chapter {x}") for x in family_x]
+
+# List comprehension can also make you create lists based on other existing lists
+
+days = ['monday' , 'tuesday' , 'wednesday' , 'thursday' , 'friday' , 'saturday' , 'sunday']
+
+odd_positioned = [x for x in days if len(x) == 6]
+
+print(odd_positioned)
