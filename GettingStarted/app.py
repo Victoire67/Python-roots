@@ -272,3 +272,24 @@ another_other_list = list(another_list)
 
 yet_another_list = another_other_list[:]
 
+# Joining two list
+
+# method one  : 
+
+l1 = [1,2,3,4,5,6] 
+l2 = ['1', 'a']
+
+l3 = l1 + l2
+
+# method two
+
+for item in l1 :
+    l2.append(item)
+
+print(l2)
+
+
+# method 3
+
+l5 = l1.extend([23, 2300])
+print(l5)
