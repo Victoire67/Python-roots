@@ -140,123 +140,135 @@ import time
 # # Slicing a string
 # # U do this by specifying a range using a semicolon between start and end index
 
-# welcome = "Welcome to amaliTech"
-# print(welcome[0:3])
-# print(welcome[-2: -1])
+# # welcome = "Welcome to amaliTech"
+# # print(welcome[0:3])
+# # print(welcome[-2: -1])
 
-# stings have a lot of methods to look into the documentation
+# # stings have a lot of methods to look into the documentation
 
-# string formating
+# # string formating
 
-# F-string was introduced in python 3.6 and is now the default way of formating strings in python
-price = 59
-text = f"The price is {price:.2f} dollars"
-print(text)
+# # F-string was introduced in python 3.6 and is now the default way of formating strings in python
+# price = 59
+# text = f"The price is {price:.2f} dollars"
+# print(text)
 
-# BOOLEAN
-# Most values are t in ruthy python exept , zero and empty containers
+# # BOOLEAN
+# # Most values are t in ruthy python exept , zero and empty containers
 
-# Operators in python
-# Python devides operators into the following types :
-# Arithmetic , Assignment , Comparison , Logical , Identity , Membership , Bitwise
+# # Operators in python
+# # Python devides operators into the following types :
+# # Arithmetic , Assignment , Comparison , Logical , Identity , Membership , Bitwise
 
-# Assignment operator :
-x = 21
-
-
-print(x // 2)
-print(2 & 2)
+# # Assignment operator :
+# x = 21
 
 
-print(~12)
+# print(x // 2)
+# print(2 & 2)
 
 
-# walrus operator
+# print(~12)
 
 
-# def count_odds(data):
-#     time.sleep(1)
-#     odds = [o for o in data if o % 2 == 1]
-#     return (len(odds))
+# # walrus operator
 
 
-# data = [45, 65, 22, 12, 54, 1, 0, 17]
-
-# t1 = time.time()  # present time
-
-# if (n := count_odds(data)) > 1:
-#     print(f'{n} odds')
-
-# t2 = time.time()
-# print(f'Took {t2-t1} seconds.')
+# # def count_odds(data):
+# #     time.sleep(1)
+# #     odds = [o for o in data if o % 2 == 1]
+# #     return (len(odds))
 
 
-# num = 6
+# # data = [45, 65, 22, 12, 54, 1, 0, 17]
 
-# x = 'WEEKEND' if num > 5 else 'Workday'
+# # t1 = time.time()  # present time
 
-# print(x)
+# # if (n := count_odds(data)) > 1:
+# #     print(f'{n} odds')
 
-# parentheses has the highest precendence
-# multiplication
-#
-
-# LISTS IN PYTHON
-
-days = list(('apple', 'banana', 'cherry'))
-print(days)
-days[0:1] = ['victor']
-print(days)
+# # t2 = time.time()
+# # print(f'Took {t2-t1} seconds.')
 
 
-days.insert(1, 'butamu')
-print(days)
+# # num = 6
 
-days.append("volvo")
-print(days)
+# # x = 'WEEKEND' if num > 5 else 'Workday'
 
-family_x = [1, 2, 34, 5, 6, 7, 8, 9]
-family_y = [10, 20, 30, 40]
+# # print(x)
 
+# # parentheses has the highest precendence
+# # multiplication
+# #
 
-family_x.extend(family_y)
-print(family_x)
+# # LISTS IN PYTHON
 
-family_x.remove(34)
-print(family_x)
-
-family_x.pop(3)
-print(family_x)
-
-family_y.clear()
-del(family_y)
-
-# print(family_y)
+# days = list(('apple', 'banana', 'cherry'))
+# print(days)
+# days[0:1] = ['victor']
+# print(days)
 
 
-# Looping through lists in python 
+# days.insert(1, 'butamu')
+# print(days)
 
-for x in family_x : 
-    x -= x
-    print(x)
+# days.append("volvo")
+# print(days)
+
+# family_x = [1, 2, 34, 5, 6, 7, 8, 9]
+# family_y = [10, 20, 30, 40]
 
 
-for i in range(len(family_x)):
-    print(i)
+# family_x.extend(family_y)
+# print(family_x)
 
-i = 0
-while i < len(family_x):
-    print(family_x[i])
-    i = i + 1
+# family_x.remove(34)
+# print(family_x)
 
-# list comprehension 
+# family_x.pop(3)
+# print(family_x)
 
-[print(f"listComprehension chapter {x}") for x in family_x]
+# family_y.clear()
+# del(family_y)
 
-# List comprehension can also make you create lists based on other existing lists
+# # print(family_y)
 
-days = ['monday' , 'tuesday' , 'wednesday' , 'thursday' , 'friday' , 'saturday' , 'sunday']
 
-odd_positioned = [x for x in days if len(x) == 6]
+# # Looping through lists in python 
 
-print(odd_positioned)
+# for x in family_x : 
+#     x -= x
+#     print(x)
+
+
+# for i in range(len(family_x)):
+#     print(i)
+
+# i = 0
+# while i < len(family_x):
+#     print(family_x[i])
+#     i = i + 1
+
+# # list comprehension 
+
+# [print(f"listComprehension chapter {x}") for x in family_x]
+
+# # List comprehension can also make you create lists based on other existing lists
+
+# days = ['monday' , 'tuesday' , 'wednesday' , 'thursday' , 'friday' , 'saturday' , 'sunday']
+
+# odd_positioned = [x for x in days if len(x) == 6]
+
+# print(odd_positioned)
+
+
+# LISTS in python 
+
+this_list = ['apples' , 'hembe' , 'mango' ,'butamu']
+
+another_list = this_list.copy()
+
+another_other_list = list(another_list)
+
+yet_another_list = another_other_list[:]
+
