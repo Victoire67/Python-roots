@@ -310,3 +310,13 @@ print(yellow);
 my_tuple = fruits * 2;
 print(my_tuple)
 
+
+# SETS in python 
+
+this_set = {'banana' , 'olala'}
+# In python sets False and 0 are considered to be the same same thing for 1 and False
+
+this_set.update({'setelement1'})
+this_set.add('buduruuu')
+
+
