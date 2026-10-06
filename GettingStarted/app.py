@@ -293,3 +293,20 @@ print(l2)
 
 l5 = l1.extend([23, 2300])
 print(l5)
+
+# TUPLES
+
+names = 'ansima' , 'ikuliyo' , 'victoire'
+
+print(names[2])
+
+
+fruits = 'apples' , 'banana' , 'cherry' , 'strawberry' , 'raspberry'
+
+(green , *yellow , red) = fruits
+
+print(yellow);
+
+my_tuple = fruits * 2;
+print(my_tuple)
+
