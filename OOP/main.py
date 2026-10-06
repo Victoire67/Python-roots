@@ -30,9 +30,23 @@ class Student:
         print(f"Student : {self.name}")
         return 'displayed'
 
+    def __eq__(self, other):
+        return self.name == other.name and self.age == other.age and self.school == other.school
+        
 
 
 me = Student('Victor' , 12 , 'Antonino')
+me2 = Student('Victor' , 12 , 'Antonino')
 
 
-print(me)
+print(me == me2)
+
+class Point:
+	def __init__(self , x , y) :
+		self.x = x 
+		self.y = y
+	def __repr__(self):
+		return (f"Point({self.x}, {self.y})")
+
+p1 = Point(2,3)
+print(p1)
