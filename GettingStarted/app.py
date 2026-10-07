@@ -327,5 +327,23 @@ union = my_flex_names.union({"Tupac man"});
 print(my_flex_names)
 print(union)
 
+# Dictionaries : 
 
+this_dictionary = {
+    'brand' : 'Ford',
+    'model' : 'Mustang',
+    'year' : 1964
+}
+
+
+print(this_dictionary)
+print(this_dictionary['model'])
+print(this_dictionary.get('model'))
+
+print(this_dictionary.keys())
+print(this_dictionary.values())
+print(this_dictionary.items())
+
+this_dictionary.popitem()
+print(this_dictionary)
 
