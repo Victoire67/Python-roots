@@ -74,3 +74,33 @@ me_in_december.graduation_song('Bufufoooooo!')
 
 
 # Polymorphism
+
+# The word polymorphism means multi forms
+# This refers to a method or function that can be on many different object or classes
+
+class Cat:
+    def sound():
+        print('uuuuuuuuu')
+
+
+class Cat:
+    def sound():
+        print('ouf')
+
+
+# Encapsulation
+# Encapsulation is about protecting data inside inside a class
+# This prevents accidental changes during developement
+# We can make a property private by  writting it with a double underscore at the beginning of the name .
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.__age = age  # Private property
+
+
+p1 = Person("Emil", 25)
+print(p1.name)
+# print(p1.__age) , Private properties cannot be accessed outside of the class , for that to be possible you need to create a getter method
+
+

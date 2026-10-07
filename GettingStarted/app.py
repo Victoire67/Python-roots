@@ -180,143 +180,152 @@ import time
 # #     return (len(odds))
 
 
-# # data = [45, 65, 22, 12, 54, 1, 0, 17]
+# # # data = [45, 65, 22, 12, 54, 1, 0, 17]
 
-# # t1 = time.time()  # present time
+# # # t1 = time.time()  # present time
 
-# # if (n := count_odds(data)) > 1:
-# #     print(f'{n} odds')
+# # # if (n := count_odds(data)) > 1:
+# # #     print(f'{n} odds')
 
-# # t2 = time.time()
-# # print(f'Took {t2-t1} seconds.')
-
-
-# # num = 6
-
-# # x = 'WEEKEND' if num > 5 else 'Workday'
-
-# # print(x)
-
-# # parentheses has the highest precendence
-# # multiplication
-# #
-
-# # LISTS IN PYTHON
-
-# days = list(('apple', 'banana', 'cherry'))
-# print(days)
-# days[0:1] = ['victor']
-# print(days)
+# # # t2 = time.time()
+# # # print(f'Took {t2-t1} seconds.')
 
 
-# days.insert(1, 'butamu')
-# print(days)
+# # # num = 6
 
-# days.append("volvo")
-# print(days)
+# # # x = 'WEEKEND' if num > 5 else 'Workday'
 
-# family_x = [1, 2, 34, 5, 6, 7, 8, 9]
-# family_y = [10, 20, 30, 40]
+# # # print(x)
 
+# # # parentheses has the highest precendence
+# # # multiplication
+# # #
 
-# family_x.extend(family_y)
-# print(family_x)
+# # # LISTS IN PYTHON
 
-# family_x.remove(34)
-# print(family_x)
-
-# family_x.pop(3)
-# print(family_x)
-
-# family_y.clear()
-# del(family_y)
-
-# # print(family_y)
+# # days = list(('apple', 'banana', 'cherry'))
+# # print(days)
+# # days[0:1] = ['victor']
+# # print(days)
 
 
-# # Looping through lists in python 
+# # days.insert(1, 'butamu')
+# # print(days)
 
-# for x in family_x : 
-#     x -= x
-#     print(x)
+# # days.append("volvo")
+# # print(days)
 
-
-# for i in range(len(family_x)):
-#     print(i)
-
-# i = 0
-# while i < len(family_x):
-#     print(family_x[i])
-#     i = i + 1
-
-# # list comprehension 
-
-# [print(f"listComprehension chapter {x}") for x in family_x]
-
-# # List comprehension can also make you create lists based on other existing lists
-
-# days = ['monday' , 'tuesday' , 'wednesday' , 'thursday' , 'friday' , 'saturday' , 'sunday']
-
-# odd_positioned = [x for x in days if len(x) == 6]
-
-# print(odd_positioned)
+# # family_x = [1, 2, 34, 5, 6, 7, 8, 9]
+# # family_y = [10, 20, 30, 40]
 
 
-# LISTS in python 
+# # family_x.extend(family_y)
+# # print(family_x)
 
-this_list = ['apples' , 'hembe' , 'mango' ,'butamu']
+# # family_x.remove(34)
+# # print(family_x)
 
-another_list = this_list.copy()
+# # family_x.pop(3)
+# # print(family_x)
 
-another_other_list = list(another_list)
+# # family_y.clear()
+# # del(family_y)
 
-yet_another_list = another_other_list[:]
-
-# Joining two list
-
-# method one  : 
-
-l1 = [1,2,3,4,5,6] 
-l2 = ['1', 'a']
-
-l3 = l1 + l2
-
-# method two
-
-for item in l1 :
-    l2.append(item)
-
-print(l2)
+# # # print(family_y)
 
 
-# method 3
+# # # Looping through lists in python 
 
-l5 = l1.extend([23, 2300])
-print(l5)
-
-# TUPLES
-
-names = 'ansima' , 'ikuliyo' , 'victoire'
-
-print(names[2])
+# # for x in family_x : 
+# #     x -= x
+# #     print(x)
 
 
-fruits = 'apples' , 'banana' , 'cherry' , 'strawberry' , 'raspberry'
+# # for i in range(len(family_x)):
+# #     print(i)
 
-(green , *yellow , red) = fruits
+# # i = 0
+# # while i < len(family_x):
+# #     print(family_x[i])
+# #     i = i + 1
 
-print(yellow);
+# # # list comprehension 
 
-my_tuple = fruits * 2;
-print(my_tuple)
+# # [print(f"listComprehension chapter {x}") for x in family_x]
+
+# # # List comprehension can also make you create lists based on other existing lists
+
+# # days = ['monday' , 'tuesday' , 'wednesday' , 'thursday' , 'friday' , 'saturday' , 'sunday']
+
+# # odd_positioned = [x for x in days if len(x) == 6]
+
+# # print(odd_positioned)
+
+
+# # LISTS in python 
+
+# this_list = ['apples' , 'hembe' , 'mango' ,'butamu']
+
+# another_list = this_list.copy()
+
+# another_other_list = list(another_list)
+
+# yet_another_list = another_other_list[:]
+
+# # Joining two list
+
+# # method one  : 
+
+# l1 = [1,2,3,4,5,6] 
+# l2 = ['1', 'a']
+
+# l3 = l1 + l2
+
+# # method two
+
+# for item in l1 :
+#     l2.append(item)
+
+# print(l2)
+
+
+# # method 3
+
+# l5 = l1.extend([23, 2300])
+# print(l5)
+
+# # TUPLES
+
+# names = 'ansima' , 'ikuliyo' , 'victoire'
+
+# print(names[2])
+
+
+# fruits = 'apples' , 'banana' , 'cherry' , 'strawberry' , 'raspberry'
+
+# (green , *yellow , red) = fruits
+
+# print(yellow);
+
+# my_tuple = fruits * 2;
+# print(my_tuple)
 
 
 # SETS in python 
 
-this_set = {'banana' , 'olala'}
-# In python sets False and 0 are considered to be the same same thing for 1 and False
+this_set = {1, 2, 3}
+this_set.update({12})
+print(this_set)
 
-this_set.update({'setelement1'})
-this_set.add('buduruuu')
+# Frozenset
+
+my_names = frozenset({'Ansima' , 'Ikuliyo' , 'Victoire'})
+
+my_flex_names = my_names.copy()
+union = my_flex_names.union({"Tupac man"});
+
+print(my_flex_names)
+print(union)
+
 
 
